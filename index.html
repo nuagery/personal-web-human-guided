@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Zixuan Zhou, Electrical and Electronic Engineering student.">
+    <title>Zixuan Zhou — Electrical &amp; Electronic Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="nav-shell">
+      <a class="brand" href="#top" aria-label="Zixuan Zhou home">
+        <span class="brand-mark">ZZ</span>
+        <span>Zixuan Zhou</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#profile">About me</a>
+        <a href="#projects">Project</a><a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact me</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker"><span></span> Electrical &amp; Electronic Engineering</p>
+          <h1 id="hero-title">Zixuan<br>Zhou</h1>
+          <p class="hero-summary">I’m Zixuan Zhou, an undergraduate engineering student focused on power electronics, wearable sensing, embedded systems and intelligent hardware.</p>
+        </div>
+
+        <div class="hero-visual rotary-directory" aria-label="Rotary telephone directory">
+          <p class="dial-eyebrow">THE PERSONAL DIRECTORY / 01—05</p>
+          <div class="dial-body">
+            <div class="dial-track" aria-hidden="true"></div>
+            <div class="dial-wheel">
+              <a class="dial-hole" style="--angle:-144deg" href="#profile" data-dial="0" aria-label="Dial About me"><span class="dial-number">01</span><span class="dial-label">About me</span></a>
+              <a class="dial-hole" style="--angle:-72deg" href="#projects" data-dial="1" aria-label="Dial Project"><span class="dial-number">02</span><span class="dial-label">Project</span></a>
+              <a class="dial-hole" style="--angle:0deg" href="#research" data-dial="2" aria-label="Dial Research"><span class="dial-number">03</span><span class="dial-label">Research</span></a>
+              <a class="dial-hole" style="--angle:72deg" href="#experience" data-dial="3" aria-label="Dial Experience"><span class="dial-number">04</span><span class="dial-label">Experience</span></a>
+              <a class="dial-hole" style="--angle:144deg" href="#contact" data-dial="4" aria-label="Dial Contact me"><span class="dial-number">05</span><span class="dial-label">Contact me</span></a>
+            </div>
+            <div class="dial-hub"><span>ZIXUAN ZHOU</span><strong>ZZ</strong><span>CLICK TO EXPLORE</span></div>
+            <span class="dial-stop" aria-hidden="true">↖</span>
+          </div>
+          <p class="dial-status" aria-live="polite">Pick a number. Dial a chapter.</p>
+          <p class="dial-hint">Click a chapter number to dial and explore.</p>
+        </div>
+
+        <div class="hero-index" aria-label="Portfolio highlights">
+          <div><strong>2027</strong><span>Expected graduation</span></div>
+          <div><strong>3</strong><span>Core engineering areas</span></div>
+          <div><strong>7.5</strong><span>IELTS</span></div>
+        </div>
+      </section>
+
+      <section id="profile" aria-labelledby="profile-title">
+      <div class="profile" aria-labelledby="profile-title">
+        <div class="section-label">
+          <span>01</span>
+          <p>About me</p>
+        </div>
+        <div class="profile-heading">
+          <p class="kicker">University of Nottingham Ningbo China</p>
+          <h2 id="profile-title">Curious about how things work.<br><em>Committed to making them work better.</em></h2>
+        </div>
+        <div class="profile-content">
+          <p>I’m a final-year Electrical and Electronic Engineering undergraduate studying at the University of Nottingham Ningbo China. My work sits across circuit design, embedded platforms, hardware testing and medical sensing.</p>
+          <dl class="facts">
+            <div><dt>Education</dt><dd>BEng Electronic and Electrical Engineering</dd></div>
+            <div><dt>Period</dt><dd>Sep 2023 — Jun 2027</dd></div>
+            <div><dt>Focus</dt><dd>Power · Embedded · Wearable sensing</dd></div>
+            <div><dt>Languages</dt><dd>Python · C · Linux</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="toolbox" aria-labelledby="toolbox-title">
+        <div class="section-label">
+          <span aria-hidden="true">↳</span>
+          <p>Toolkit</p>
+        </div>
+        <div>
+          <h2 id="toolbox-title">Tools I use.</h2>
+          <div class="tool-list">
+            <span>Python</span><span>C</span><span>Linux</span><span>Arduino</span>
+            <span>STM32</span><span>Raspberry Pi</span><span>PLECS</span>
+            <span>LTspice</span><span>Simulink</span><span>Logisim</span><span>Office</span>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+
+
+<section class="projects" id="projects" aria-labelledby="projects-title"><header class="section-header"><div class="section-label"><span>02</span><p>Project</p></div><h2 id="projects-title">From concept to<br><em>working systems.</em></h2></header><article class="project"><div class="project-number">01</div><div class="project-main"><p class="kicker">Embedded control</p><h3>Line-Following Vehicle</h3><p>An Arduino-based vehicle exploring sensor-guided steering, motor control and human–machine interfaces.</p><a class="text-link detail-link" href="details/line-following-vehicle.html"><span class="detail-link-label">Explore project</span> <span aria-hidden="true">↗</span></a></div><ul class="project-details"><li>Read infrared line-sensor signals and investigate bang-bang and PID steering.</li><li>Control the vehicle through motor commands, encoder feedback and serial communication.</li><li>Extend the platform with Raspberry Pi remote access and ultrasonic distance sensing.</li></ul><div class="project-tags"><span>Arduino</span><span>PID</span><span>Raspberry Pi</span></div></article><article class="project"><div class="project-number">02</div><div class="project-main"><p class="kicker">Power electronics</p><h3>Two-Switch Forward Converter</h3><p>A group design exploring an isolated 50 W forward converter and regulated 10 V output.</p><a class="text-link detail-link" href="details/forward-converter.html"><span class="detail-link-label">Explore project</span> <span aria-hidden="true">↗</span></a></div><ul class="project-details"><li>Select transformer and LC power-stage parameters.</li><li>Compare Type 1 and Type 3 feedback compensation in PLECS.</li><li>Investigate PWM, gate-drive circuitry and PCB implementation.</li></ul><div class="project-tags"><span>PLECS</span><span>Type 3</span><span>PCB</span></div></article><article class="project"><div class="project-number">03</div><div class="project-main"><p class="kicker">Sensing and analogue electronics</p><h3>Doppler Radar &amp; STM32 Signal Acquisition</h3><p>An HB100 radar sensing chain combining analogue signal conditioning with STM32 acquisition.</p><a class="text-link detail-link" href="details/doppler-radar.html"><span class="detail-link-label">Explore project</span> <span aria-hidden="true">↗</span></a></div><ul class="project-details"><li>Build and test filtering, amplification and a DC offset.</li><li>Explore comparators and Schmitt-trigger waveform conversion.</li><li>Read conditioned radar signals with STM32 ADC and USART.</li></ul><div class="project-tags"><span>HB100</span><span>STM32</span><span>Filters</span></div></article><article class="project"><div class="project-number">04</div><div class="project-main"><p class="kicker">Robotics and vision</p><h3>Robot Master Team</h3><p>Mapping and visual-tracking exploration for a competitive robotics platform.</p><a class="text-link detail-link" href="details/robot-master.html"><span class="detail-link-label">Explore project</span> <span aria-hidden="true">↗</span></a></div><ul class="project-details"><li>Study ROS 1 and ROS 2.</li><li>Explore LiDAR mapping using Cartographer.</li><li>Develop OpenCV armour-plate recognition and tracking.</li></ul><div class="project-tags"><span>ROS</span><span>Cartographer</span><span>OpenCV</span></div></article></section>
+<section class="projects" id="research" aria-labelledby="research-title"><header class="section-header"><div class="section-label"><span>03</span><p>Research</p></div><h2 id="research-title">Exploring materials.<br><em>Understanding movement.</em></h2></header><article class="project"><div class="project-number">01</div><div class="project-main"><p class="kicker">Wearable medical sensing</p><h3>Laser-Induced Graphene Sensors</h3><p>Research into fabrication, transfer and characterisation of graphene-based wearable sensors.</p><a class="text-link detail-link" href="details/graphene-sensors.html"><span class="detail-link-label">Explore research</span> <span aria-hidden="true">↗</span></a></div><ul class="project-details"><li>Compare CO₂ and UV laser processing.</li><li>Investigate transfer for thinner, conformal sensors.</li><li>Characterise materials using SEM, BET and sheet resistance.</li></ul><div class="project-tags"><span>LIG</span><span>Materials</span><span>Wearables</span></div></article><article class="project"><div class="project-number">02</div><div class="project-main"><p class="kicker">Wearable health research</p><h3>Freezing of Gait Prediction and Monitoring</h3><p>A literature review of wearable sensing approaches for Parkinson’s disease.</p><a class="text-link detail-link" href="details/freezing-of-gait.html"><span class="detail-link-label">Explore research</span> <span aria-hidden="true">↗</span></a></div><ul class="project-details"><li>Review more than 30 research papers.</li><li>Compare sensor placement, comfort and accuracy.</li><li>Explore monitoring and prediction of freezing of gait.</li></ul><div class="project-tags"><span>Literature review</span><span>Sensors</span><span>Parkinson’s</span></div></article></section>
+      <section class="experience" id="experience" aria-labelledby="experience-title">
+        <header class="section-header">
+          <div class="section-label">
+            <span>04</span>
+            <p>Experience</p>
+          </div>
+          <h2 id="experience-title">Learning through<br><em>real-world work.</em></h2>
+        </header>
+
+        <div class="timeline">
+          <article>
+            <span class="timeline-year">Internship</span>
+            <div>
+              <p class="kicker">Hardware Development</p>
+              <h3>Shanghai Lianchuang Automotive Electronics · 2025</h3>
+              <p>Tested perception camera modules used in intelligent-driving systems, including temperature-cycle, DDR stress and ESD testing workflows.</p>
+            </div>
+          </article>
+          <article id="achievements" tabindex="-1">
+            <span class="timeline-year">Award</span>
+            <div>
+              <p class="kicker">Honorable Mention</p>
+              <h3>MCM / ICM · 2025</h3>
+              <p>Honorable Mention in the Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling.</p>
+            </div>
+          </article>
+          <article>
+            <span class="timeline-year">Award</span>
+            <div>
+              <p class="kicker">Bronze Award</p>
+              <h3>FLTRP · ETIC Cup · 2024</h3>
+              <p>National English-language competition award.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <header class="section-header">
+          <div class="section-label"><span>05</span><p>Contact me</p></div>
+          <div><h2 id="contact-title">Let’s start<br><em>a conversation.</em></h2>
+          <p class="contact-copy">For research, engineering projects and opportunities to collaborate.</p>
+          <a class="text-link contact-email" href="mailto:18717878151@163.com">18717878151@163.com <span aria-hidden="true">↗</span></a></div>
+        </header>
+      </section>
+    </main>
+
+    <footer>
+      <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      <p class="copyright">© 2026 Zixuan Zhou</p>
+    </footer>
+    <script src="dial.js"></script>
+  </body>
+</html>
+
+
